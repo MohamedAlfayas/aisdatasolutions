@@ -54,8 +54,8 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp.zoho.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'noreply@lintcloud.com';
-    $mail->Password   = 'L!ntCl0ud@77';
+    // $mail->Username   = 'noreply@lintcloud.com';
+    // $mail->Password   = 'L!ntCl0ud@77';
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
 
